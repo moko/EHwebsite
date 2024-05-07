@@ -1,5 +1,5 @@
 baseURL: "https://edwardharvey.com" 
-title: Ed Harvey
+title: L. Edward Harvey
 paginate: 20
 theme: PaperMod
 
@@ -23,16 +23,13 @@ menu:
         - name: Data
           url: data/
           weight: 4 
-        - name: Wikipedia
-          url: https://en.wikipedia.org/wiki/Moritz-Maria_von_Igelfeld_(character)
-          weight: 5
 
 params:
     description: "I am a former Information Technology professional with over 23 years experience in data science, and application development and support, and 10 years as an academic scientist in Canadian and New Zealand universities. My IT roles have included development team lead, developer, business analyst, systems analyst, and application and information architect. I have also authored 30 publications on applied multivariate statistics and spatial analysis. Certified, ITIL Foundation."
-    author: Ed Harvey
+    author: L. Edward Harvey
     # googleAnalyticsID: "G-XXXXX"
     DateFormat: "January 2006"
-    defaultTheme: light
+    defaultTheme: dark
     hideFooter: false
     disableThemeToggle: true
     ShowShareButtons: false
@@ -52,12 +49,12 @@ params:
     math: true
     profileMode:
           enabled: true
-          title: Ed Harvey
+          title: L. Edward Harvey
           subtitle: "I am a former Information Technology professional with over 23 years experience in data science, and application development and support, and 10 years as an academic scientist in Canadian and New Zealand universities. My IT roles have included development team lead, developer, business analyst, systems analyst, and application and information architect. I have also authored 30 publications on applied multivariate statistics and spatial analysis. Certified, ITIL Foundation."
-          imageUrl: "picture.jpeg"
+          imageUrl: "moko399x399.png"
           imageWidth: 160
           imageHeight: 160
-          imageTitle: Ed Harvey
+          imageTitle: L. Edward Harvey
           buttons:
             - name: Books
               url: books/
@@ -67,12 +64,6 @@ params:
               url: courses/
             - name: Data
               url: data/
-            - name: Tags
-              url: tags/
-            - name: Archive
-              url: archive/
-            - name: Wikipedia
-              url: https://en.wikipedia.org/wiki/Moritz-Maria_von_Igelfeld_(character)
 
     socialIcons:
         - name: Email
@@ -80,11 +71,11 @@ params:
         - name: Resume
           url: https://edwardharvey.com/resume.html
         - name: Google Scholar
-          url: https://scholar.google.com/citations?user=cL23w-4AAAAJ
+          url: https://scholar.google.com/citations?user=MhzVJOgAAAAJ&hl=en
         - name: Location
           url: location/
         - name: GitHub
-          url: https://github.com/pmichaillat
+          url: https://github.com/moko
 
     assets:
         disableHLJS: true
@@ -93,7 +84,7 @@ params:
         hiddenInList: false
         hiddenInSingle: true
     label:
-      text: "Ed Harvey"
+      text: "L. Edward Harvey"
       icon: favicon.ico
       iconHeight: 18
 

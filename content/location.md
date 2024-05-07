@@ -1,7 +1,7 @@
 ---
 title: "Location"
 hidemeta: true
-description: "Professor Dr von Igelfeld's mailing and office addresses at the Institute of Romance Philology."
+description: "L. Edward Harvey contact details"
 
 ---
 
@@ -9,24 +9,13 @@ description: "Professor Dr von Igelfeld's mailing and office addresses at the In
 
 #### Mailing address
 
-Professor Dr von Igelfeld  
-Institute of Romance Philology  
-University of Regensburg  
-Regensburg, Germany
+L. Edward Harvey
+12602 106 Ave NW
+Edmonton, AB
+T5N 0Z7
 
 ---
 
-#### Office address
+#### Location
 
-Room 133  
-Institute of Romance Philology  
-University of Regensburg
-
----
-
-#### Office location
-
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10470.896334563153!2d12.085487114429176!3d48.99680799095555!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x479fc1126394f30f%3A0xb4c5000594ee5334!2sUniversity%20of%20Regensburg!5e0!3m2!1sen!2sus!4v1714871932562!5m2!1sen!2sus" 
-width="700" height="500" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-
-
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4740.914703744943!2d-113.5423891229455!3d53.54960275949537!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x53a023d41150cc57%3A0xaaf1739ee5ef168!2s12602%20106%20Ave%20NW%2C%20Edmonton%2C%20AB%20T5N%200Z7!5e0!3m2!1sen!2sca!4v1715109853478!5m2!1sen!2sca" width="700" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>

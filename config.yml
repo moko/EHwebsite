@@ -1,0 +1,110 @@
+baseURL: "https://edwardharvey.com" 
+title: Ed Harvey
+paginate: 20
+theme: PaperMod
+
+enableInlineShortcodes: true
+enableRobotsTXT: true
+
+taxonomies:
+    tag: tags
+
+menu:
+    main:
+        - name: Books
+          url: books/
+          weight: 1 
+        - name: Papers
+          url: papers/
+          weight: 2
+        - name: Courses
+          url: courses/
+          weight: 3
+        - name: Data
+          url: data/
+          weight: 4 
+        - name: Wikipedia
+          url: https://en.wikipedia.org/wiki/Moritz-Maria_von_Igelfeld_(character)
+          weight: 5
+
+params:
+    description: "I am a former Information Technology professional with over 23 years experience in data science, and application development and support, and 10 years as an academic scientist in Canadian and New Zealand universities. My IT roles have included development team lead, developer, business analyst, systems analyst, and application and information architect. I have also authored 30 publications on applied multivariate statistics and spatial analysis. Certified, ITIL Foundation."
+    author: Ed Harvey
+    # googleAnalyticsID: "G-XXXXX"
+    DateFormat: "January 2006"
+    defaultTheme: light
+    hideFooter: false
+    disableThemeToggle: true
+    ShowShareButtons: false
+    ShowReadingTime: false
+    disableSpecial1stPost: true
+    disableAnchoredHeadings: true
+    ShowPostNavLinks: false
+    ShowBreadCrumbs: false
+    ShowCodeCopyButtons: true
+    ShowRssButtonInSectionTermList: false
+    ShowToc: false
+    disableScrollToTop: true
+    TocOpen: true
+    ShowWordCount: false
+    UseHugoToc: true
+    comments: false
+    math: true
+    profileMode:
+          enabled: true
+          title: Ed Harvey
+          subtitle: "I am a former Information Technology professional with over 23 years experience in data science, and application development and support, and 10 years as an academic scientist in Canadian and New Zealand universities. My IT roles have included development team lead, developer, business analyst, systems analyst, and application and information architect. I have also authored 30 publications on applied multivariate statistics and spatial analysis. Certified, ITIL Foundation."
+          imageUrl: "picture.jpeg"
+          imageWidth: 160
+          imageHeight: 160
+          imageTitle: Ed Harvey
+          buttons:
+            - name: Books
+              url: books/
+            - name: Papers
+              url: papers/
+            - name: Courses
+              url: courses/
+            - name: Data
+              url: data/
+            - name: Tags
+              url: tags/
+            - name: Archive
+              url: archive/
+            - name: Wikipedia
+              url: https://en.wikipedia.org/wiki/Moritz-Maria_von_Igelfeld_(character)
+
+    socialIcons:
+        - name: Email
+          url: mailto:ed.harvey@gmail.com
+        - name: Resume
+          url: https://edwardharvey.com/resume.html
+        - name: Google Scholar
+          url: https://scholar.google.com/citations?user=cL23w-4AAAAJ
+        - name: Location
+          url: location/
+        - name: GitHub
+          url: https://github.com/pmichaillat
+
+    assets:
+        disableHLJS: true
+        disableScrollBarStyle: true
+    cover:
+        hiddenInList: false
+        hiddenInSingle: true
+    label:
+      text: "Ed Harvey"
+      icon: favicon.ico
+      iconHeight: 18
+
+markup:
+    goldmark:
+        renderer:
+            unsafe: true
+    highlight:
+        guessSyntax: true
+        style: autumn 
+    tableOfContents:
+        endLevel: 2
+        ordered: false
+        startLevel: 2

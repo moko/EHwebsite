@@ -11,18 +11,10 @@ taxonomies:
 
 menu:
     main:
-        - name: Books
-          url: books/
+        - name: Search
+          url: search/
           weight: 1 
-        - name: Papers
-          url: papers/
-          weight: 2
-        - name: Courses
-          url: courses/
-          weight: 3
-        - name: Data
-          url: data/
-          weight: 4 
+
 
 params:
     description: "I am a former Information Technology professional with over 23 years experience in data science, and application development and support, and 10 years as an academic scientist in Canadian and New Zealand universities. My IT roles have included development team lead, developer, business analyst, systems analyst, and application and information architect. I have also authored 30 publications on applied multivariate statistics and spatial analysis. Certified, ITIL Foundation."
@@ -56,14 +48,7 @@ params:
           imageHeight: 160
           imageTitle: L. Edward Harvey
           buttons:
-            - name: Books
-              url: books/
-            - name: Papers
-              url: papers/
-            - name: Courses
-              url: courses/
-            - name: Data
-              url: data/
+
 
     socialIcons:
         - name: Email
@@ -72,10 +57,19 @@ params:
           url: https://edwardharvey.com/resume.html
         - name: Google Scholar
           url: https://scholar.google.com/citations?user=MhzVJOgAAAAJ&hl=en
+        - name: Orcid
+          url: https://orcid.org/0000-0002-2379-4187
         - name: Location
           url: location/
         - name: GitHub
           url: https://github.com/moko
+        - name: LinkedIn
+          url: https://www.linkedin.com/in/edharvey
+        - name: Mastodon
+          url: https://mstdn.ca/@moko
+        - name: Phone
+          url:
+
 
     assets:
         disableHLJS: true

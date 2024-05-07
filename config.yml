@@ -12,7 +12,7 @@ taxonomies:
 menu:
     main:
         - name: Search
-          url: search/
+          url: /search/
           weight: 1
         - name: Archive  
           url: /archive/  

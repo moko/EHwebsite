@@ -94,5 +94,7 @@
     <loc>http://localhost:1313/location/</loc>
   </url><url>
     <loc>http://localhost:1313/officehours/</loc>
+  </url><url>
+    <loc>http://localhost:1313/search/</loc>
   </url>
 </urlset>

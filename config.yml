@@ -1,4 +1,5 @@
-baseURL: "https://edwardharvey.com" 
+baseURL: "https://edwardharvey.com/" 
+languageCode: = "en-us"
 title: L. Edward Harvey
 paginate: 20
 theme: PaperMod

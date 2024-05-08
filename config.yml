@@ -19,13 +19,11 @@ menu:
           url: /archive/  
           weight: 2
 
-
-
 params:
-    description: "I am a former IT professional with 23 years experience in data science and web development, and university professor for 10 years in Canada and New Zealand."
+    description: "I am a former IT professional and university professor with 23 years IT experience in data analytics, and 10 years as an academic scientist."
     author: L. Edward Harvey
     # googleAnalyticsID: "G-XXXXX"
-    DateFormat: "January 2006"
+    DateFormat: "January 2024"
     defaultTheme: dark
     hideFooter: false
     disableThemeToggle: true
@@ -47,32 +45,28 @@ params:
     profileMode:
           enabled: true
           title: L. Edward Harvey
-          subtitle: "I am a former Information Technology professional with over 23 years experience in data science, and application development and support, and 10 years as an academic scientist in Canadian and New Zealand universities. My IT roles have included development team lead, developer, business analyst, systems analyst, and application and information architect. I have also authored 30 publications on applied multivariate statistics and spatial analysis. Certified, ITIL Foundation."
+          subtitle: "I am a former Information Technology professional and university professor. I have over 23 years experience in data analytics, and application development and support, and 10 years as an academic scientist in Canadian and New Zealand universities. My IT roles have included development team lead, developer, business analyst, systems analyst, and application and information architect. I have also authored 30 publications on applied multivariate statistics and spatial analysis. Certified, ITIL Foundation."
           imageUrl: "moko399x399.png"
           imageWidth: 160
           imageHeight: 160
           imageTitle: L. Edward Harvey
           buttons:
 
-
     socialIcons:
         - name: Email
           url: mailto:ed.harvey@gmail.com
         - name: Resume
-          url: https://edwardharvey.com/resume.html
+          url: https://edwardharvey.com/EdHarvey_Resume.html
         - name: Google Scholar
           url: https://scholar.google.com/citations?user=MhzVJOgAAAAJ&hl=en
         - name: Orcid
           url: https://orcid.org/0000-0002-2379-4187
-        - name: Location
-          url: location/
         - name: GitHub
           url: https://github.com/moko
         - name: LinkedIn
           url: https://www.linkedin.com/in/edharvey
         - name: Mastodon
           url: https://mstdn.ca/@moko
-
 
     assets:
         disableHLJS: true

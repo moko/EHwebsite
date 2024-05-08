@@ -1,0 +1,239 @@
+/*
+ * Resume CSS
+ * David Paul Ellenwood, http://davidpaulellenwood.com
+ * v2.0 | 20230810
+ * ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ */
+
+ /* Variables */
+ :root {
+	--font-family-primary: 'Ruwudu', serif;
+	--color-text: #100d0b;
+	--color-text-mid: #524d4a;
+	--color-background: #ffffff;
+	--color-highlight: #e45e1e;
+	--color-border: #a19792;
+	--gutter: clamp(1rem, 5vw, 4rem);
+	--columns-gutter: clamp(1rem, 5vw, 2rem);
+
+	@media (prefers-color-scheme: dark) {
+		--color-text: #f6f6f6;
+		--color-text-mid: #dbd0c9;
+		--color-background: #282726;
+		--color-highlight: #ff7520;
+		--color-border: #5c5b5a;
+	}
+}
+
+/*
+  Josh's Custom CSS Reset
+  https://www.joshwcomeau.com/css/custom-css-reset/
+*/
+*, *::before, *::after {box-sizing: border-box;}
+* {margin: 0;}
+body {line-height: 1.5; -webkit-font-smoothing: antialiased;}
+img, picture, video, canvas, svg {display: block; max-width: 100%;}
+input, button, textarea, select {font: inherit;}
+p, h1, h2, h3, h4, h5, h6 {overflow-wrap: break-word;}
+
+/* Utilities */
+.sr-only:not(:focus):not(:active) {
+	clip: rect(0 0 0 0); 
+	clip-path: inset(50%);
+	height: 1px;
+	overflow: hidden;
+	position: absolute;
+	white-space: nowrap; 
+	width: 1px;
+}
+
+body {
+	width: min(120ch, calc(100% - 2 * var(--gutter)));
+	margin: 0 auto;
+	padding-block: var(--gutter);
+	font-size: clamp(1rem, 2.5vw, 1.25rem);
+	font-family: var(--font-family-primary);
+	line-height: 1.5;
+	color: var(--color-text);
+	background-color: var(--color-background);
+}
+
+
+/* Typography */
+
+::selection,
+::-moz-selection {
+	background: var(--color-highlight);
+	color: var(--color-background);
+	text-shadow: none;
+}
+
+a {
+	color: var(--color-text-mid);
+
+	&:focus-visible {
+		outline-color: var(--color-text);
+		outline-offset: 0.2ch;
+	}
+
+	&:focus,
+	&:hover {
+		color: var(--color-highlight);
+	}
+}
+
+h1,h2,h3,h4,h5,h6, .masthead .title {
+	letter-spacing: -0.025ch;
+}
+
+h1 {
+	font-size: clamp(1.6rem, 4vw, 3rem);
+	line-height: 1;
+	text-transform: uppercase;
+	color: var(--color-highlight);
+}
+
+h2 {
+	font-size: clamp(1.2rem, 3vw, 1.4rem);
+	text-transform: uppercase;
+	color: var(--color-highlight);
+}
+
+h3 {
+	font-size: clamp(1.1rem, 3vw, 1.3rem);
+}
+
+p {
+	font-size: clamp(1rem, 2.5vw, 1.1rem);
+	line-height: 1.4;
+}
+
+/* Layout */
+
+main {
+	display: flex;
+	flex-flow: row wrap;
+	gap: var(--gutter);
+}
+
+.masthead {
+	width: 100%;
+	padding-bottom: 0.75rem;
+	border-bottom: 1px dotted var(--color-border);
+
+	@media (min-width: 960px) {
+		display: flex;
+		flex-flow: row nowrap;
+		justify-content: space-between;
+		align-items: baseline;
+	}
+
+	.title {
+		margin-top: 0.5rem;
+		color: var(--color-text-mid);
+	}
+}
+
+.intro {
+	@media (min-width: 800px) {
+		columns: 3;
+		column-gap: var(--columns-gutter);
+	}
+
+	@media (min-width: 960px) {
+		columns: 4;
+	}
+
+	& p {
+		margin-bottom: 1.5rem;
+
+		@media (min-width: 800px) {
+			break-inside: avoid;
+		}
+	}
+}
+
+.experience {
+	@media (min-width: 800px) {
+		width: 65%;
+	}
+}
+
+.sidebar {
+	display: flex;
+	flex-flow: column nowrap;
+	gap: var(--gutter);
+
+	@media (min-width: 800px) {
+		width: calc(35% - var(--gutter));
+	}
+}
+
+.colophon {
+	width: 100%;
+	padding-top: 0.75rem;
+	border-top: 1px dotted var(--color-border);
+}
+
+/* Components */
+
+.entry {
+	margin-bottom: 2.2rem;
+
+	&:last-child {
+		margin-bottom: 0;
+	}
+}
+
+.job, .school {
+	@media (min-width: 425px) {
+		display: flex;
+		flex-flow: row wrap;
+		justify-content: space-between;
+		align-items: baseline;
+		column-gap: 0.75rem;
+	}
+}
+
+.duration {
+	font-weight: 600;
+}
+
+.employer,
+.location {
+	width: 100%;
+	font-size: 0.75em;
+}
+
+.duties {
+	margin-top: 0.75em;
+}
+
+.contact {
+	font-size: 0.75em;
+}
+
+.country-name {
+	visibility: hidden;
+}
+
+.copyright {
+	display: none;
+}
+
+/* Print */
+
+@media print {
+
+	body {
+		font-size: 12pt;
+	}
+
+	a[href]:after {
+		content:" (" attr(href) ")";
+	}
+	
+	.sidebar {
+		page-break-before: always;
+	}
+}

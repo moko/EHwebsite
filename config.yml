@@ -61,6 +61,8 @@ params:
           url: https://scholar.google.com/citations?user=MhzVJOgAAAAJ&hl=en
         - name: Orcid
           url: https://orcid.org/0000-0002-2379-4187
+        - name: ResearchGate
+          url: https://www.researchgate.net/profile/L-Harvey
         - name: GitHub
           url: https://github.com/moko
         - name: LinkedIn
